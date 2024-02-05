@@ -6,16 +6,19 @@ import Meals from "./Meals/Meals";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Summary/>
-      <div className="card">
-        <Meals/>
+    <div className="container">
+      <div className="row">
+          <Header/>
+          <Summary/>
+          <div className="card col-mb-3" style={{width: '250rem'}}>
+            <Meals/>
+          </div>
+
+
+
       </div>
-
-
-
     </div>
+    
   );
 }
 

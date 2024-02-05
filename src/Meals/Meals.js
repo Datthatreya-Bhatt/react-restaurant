@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 
 const meals = [{name: 'Sushi', dis: 'Tasty', price: 25},
@@ -9,6 +9,8 @@ const meals = [{name: 'Sushi', dis: 'Tasty', price: 25},
 
 
 const Meals = ()=>{
+    const [quantity, setQuantity] = useState(1);
+
     const showMeal = meals.map((el, i)=> {
         return (
             <div key={i}>
@@ -20,6 +22,12 @@ const Meals = ()=>{
                     <p className="card-text">{el.dis}</p>
                     <h5 className="card-title">RS. {el.price}</h5>
 
+                </div>
+
+                <div className="card-footer">Amount 
+                    <input type='number' value={quantity}/>
+                    <input type='button' value='Add Item' className="btn btn-primary btn-sm"/>
+                        
                 </div>
 
 

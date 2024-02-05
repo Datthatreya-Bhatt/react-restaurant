@@ -5,7 +5,7 @@ const Summary = ()=>{
     return (
         <>
         
-        <div className="card text-center text-white bg-dark col-md-3" style={{maxWidth: '25rem'}}>
+        <div className="card text-center text-white bg-dark" style={{maxWidth: '250rem'}}>
 
             <div className="card-body">
                 <h5 className="card-title">Delicious Food, Delivered To You</h5>
