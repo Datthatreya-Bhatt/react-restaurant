@@ -8,8 +8,8 @@ const Cart = ()=>{
 
     return(
         <>
-            <button type="button" class="btn btn-danger">
-                Your Cart <span class="badge text-bg-secondary">{cart}</span>
+            <button type="button" className="btn btn-danger">
+                Your Cart <span className="badge text-bg-secondary">{cart}</span>
             </button>
         </>
     )
