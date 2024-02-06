@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import Cart from '../Carts/Cart';
+import Cart from './Cart';
 
 
 const Header = ()=>{

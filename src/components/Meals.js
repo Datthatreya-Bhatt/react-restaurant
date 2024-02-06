@@ -24,8 +24,8 @@ const Meals = ()=>{
 
                 </div>
 
-                <div className="card-footer">Amount 
-                    <input type='number' value={quantity}/>
+                <div className="card-footer">Amount: 
+                    <input type='number' value={quantity} style={{width: '2rem'}}/>
                     <input type='button' value='Add Item' className="btn btn-primary btn-sm"/>
                         
                 </div>
