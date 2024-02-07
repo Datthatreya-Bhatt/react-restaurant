@@ -4,13 +4,13 @@ import React from 'react';
 import Cart from './Cart';
 
 
-const Header = ()=>{
+const Header = ({cartOpen, setCartOpen})=>{
     return(
         <>
             <nav className="navbar bg-danger text-light" >
    
                 <h1>React Meals</h1>
-                <Cart/>
+                <Cart cartOpen={cartOpen} setCartOpen={setCartOpen} />
   
             </nav>
         </>
