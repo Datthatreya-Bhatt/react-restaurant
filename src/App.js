@@ -1,8 +1,13 @@
+import React from "react";
+
 import Body from "./components/Body";
+import CartProvider from "./store/Cart-Provider";
 
 function App() {
   return (
-    <Body/>
+    <CartProvider>
+      <Body/>
+    </CartProvider>
   
     
   );
